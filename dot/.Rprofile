@@ -1,5 +1,5 @@
 # Install data.table
-if (!("data.table" %in% rownames(installed.packages()))) {
+if (!("data.table" %in% rownames(utils::installed.packages()))) {
     install.packages(data.table)
 }
 

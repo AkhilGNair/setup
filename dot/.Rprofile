@@ -58,7 +58,7 @@ if (all(c("purrr", "tibble") %in% packages)) {
 }
 
 # Splat assignment
-if ("zeallot" %in% packages)) {
+if ("zeallot" %in% packages) {
   "%<s%" = zeallot::`%<-%`
 }
 
